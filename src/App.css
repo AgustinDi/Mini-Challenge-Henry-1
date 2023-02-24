@@ -1,3 +1,13 @@
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
+}
+
+
 #lupita {
   width: 20px;
 }
@@ -23,8 +33,9 @@
 
 #inputSearch {
   padding: 8px 12px;
-  gap: 10px;
   border: none;
+  outline: none;
+  width: 97%;
 }
 
 
@@ -34,20 +45,15 @@
   align-items: center;
   padding: 0px;
   width: 100%;
+  border: 1px solid #D9D9D9
 }
 
 #borderInputSearch{
+  width: 100%;
 }
 
 
 
-#app {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-left: 6%;
-  margin-right: 6%;
-}
 
 
 
