@@ -1,5 +1,6 @@
 import React from "react";
 import lupita from "../Data/Lupa.png";
+import '../Styles/Searchbar.css'
 
 export default function Searchbar(){
 
