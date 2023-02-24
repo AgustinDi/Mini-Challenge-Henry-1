@@ -2,8 +2,9 @@ import './App.css';
 import Searchbar from './Components/Searchbar';
 
 function App() {
+  //<div className='border'>***</div>
   return (
-    <div id="App">
+    <div id="app">
       <Searchbar></Searchbar>
     </div>
   );

@@ -5,7 +5,14 @@ export default function Searchbar(){
 
     return (
         <>
-        <input id='inputSearch' type='text'></input><button id='buttonSearch'><img id='lupita' src={lupita} alt='123'/>hola</button>
+        <div id="searchBar">
+            <div id="borderInputSearch">
+                <input id='inputSearch' type='text'/>
+            </div>
+            <button id='buttonSearch'>
+                <img id='lupita' src={lupita} alt='123'/>Buscar
+            </button>
+        </div>
         </>
     )
 }
