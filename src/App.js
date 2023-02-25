@@ -1,11 +1,12 @@
 import './App.css';
 import Searchbar from './Components/Searchbar';
+import BodyCards from './Components/BodyCards';
 
 function App() {
-  //<div className='border'>***</div>
   return (
     <div id="app">
       <Searchbar></Searchbar>
+      <BodyCards></BodyCards>
     </div>
   );
 }
