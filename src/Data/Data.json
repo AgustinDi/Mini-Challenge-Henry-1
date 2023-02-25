@@ -1,4 +1,5 @@
-[
+{
+    "array":[
     {
         "img":"https://s3-alpha-sig.figma.com/img/c7fe/9e47/798f77c39bb5f19567714c57a1a0ec38?Expires=1678060800&Signature=Y30NQOV0Nv1H8peqXf~uCoI2d5A~KT8YfLGFuOL-dPRQoBsm4X1HguLgd0nztnA3MVRxTGIa6jpJ3gijiqpSKHweB82NVNbG1bwJcP0WsDd6FYzWnAzQU3UDaQkvPE4hlDiJLUD98eTdP-C9Ni25SHFY0yez46LD9Vh9CEok6M4jb-Ed5iYmraKhV~A~p1m9TFn-C4S4uaNeaKHJNLyWx~zTR1Jq6rvoGRzVVVwjTN3ux3K~61z3yAZuGeSvKG1GHfhwvALd-lcA2atUa4vwLBaeQ5aOExT9z7KdYhartICsj1W7JkGYVckD8Wu7WCXYh9lNaSZ5Z56V~9hk2zigpg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
         "title":"HEADSET GAMER HAVIT HV-H2232 D",
@@ -24,3 +25,4 @@
         "price":1500
     }
 ]
+}

@@ -39,17 +39,24 @@
 }
 
 #borderInputSearch{
+  display: flex;
   width: 100%;
 }
-
-
-
-
-
-
 
 .border {
 
   width: 6%;
   height: 100%;
+}
+
+#x {
+  font-size:large;
+  padding-right: 15px;
+  border: none;
+  color: #343434;
+  background-color: transparent;
+}
+
+#x:hover {
+  cursor: pointer;
 }

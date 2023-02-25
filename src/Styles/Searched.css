@@ -1,0 +1,24 @@
+#searched {
+    display: flex;
+    border-radius: 3px;
+    width: min-content;
+    height: min-content;
+    background-color: #343434;
+    color: white;
+    padding-left: 4px;
+}
+
+#searched:hover {
+    cursor: default;
+}
+
+#searched button {
+    padding: 4px;
+    border: none;
+    color: #FFFFFF;
+    background-color: transparent;
+}
+
+#searched button:hover {
+    cursor: pointer !important;
+}
