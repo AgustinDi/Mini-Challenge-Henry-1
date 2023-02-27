@@ -6,7 +6,7 @@ export default function Card({info}){
     
     return (
         <div className="parent">
-            <img src={img}></img>
+            <img src={img} alt={code}></img>
             <div className="child">
                 <h4>{title}</h4>
                 <h5>{code}</h5>
