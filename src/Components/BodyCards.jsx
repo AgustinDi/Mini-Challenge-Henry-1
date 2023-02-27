@@ -7,22 +7,21 @@ import '../Styles/BodyCards.css';
 
 
 export default function BodyCards(){
-    const [text, setText] = useState('');
+    const [text, setText] = useState();
     const [stock] = useState(data.array);
     const [showed, setShowed] = useState(false)
     //text: es el texto buscado que se muestra en searched, con el que se va a filtrar para hacer la busqueda, con metodos se cambia desde los otros componentes.
 
-    useEffect(() => {
-        const timer = setTimeout(() => {
+    function search(){
+        setTimeout(() => {
             console.log(text)
             setShowed([])
         }, 3000);
-        return () => clearTimeout(timer);
-      }, [text]);
+    }
 
     return (
         <>
-            <SearchBar change={value=>setText(value)}/>
+            <SearchBar change={value=>{setText(value);search()}}/>
             <Searched text={text} clear={()=>setText('')}/>
             <Cards data={showed?showed:stock}></Cards>
             <div className="line"></div>
