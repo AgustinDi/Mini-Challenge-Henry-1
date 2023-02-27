@@ -13,9 +13,11 @@ export default function BodyCards(){
     //text: es el texto buscado que se muestra en searched, con el que se va a filtrar para hacer la busqueda, con metodos se cambia desde los otros componentes.
 
     function search(value){
+        console.log(stock)
         setTimeout(() => {
-            setShowed(stock.filter(item=>item.title.includes(value)))
-        }, 3000);
+            let filtered = stock.filter(item=>item.title.toUpperCase().includes(value.toUpperCase()));
+            setShowed(filtered)
+        }, 1000);
     }
 
     return (
@@ -24,7 +26,7 @@ export default function BodyCards(){
             <Searched text={text} clear={()=>{setText('');setShowed(false)}}/>
             <Cards data={showed?showed:stock}></Cards>
             <div className="line"></div>
-            <h5>{showed ? showed.length + 1 : stock.length} Resultados</h5>
+            <h5>{showed ? showed.length : stock.length} Resultados</h5>
         </>
     )
 }
