@@ -25,7 +25,7 @@ export default function BodyCards(){
             <Searched text={text} clear={()=>setText('')}/>
             <Cards data={showed?showed:stock}></Cards>
             <div className="line"></div>
-            <p>{12} Resultados</p>
+            <h5>{showed ? showed.length + 1 : stock.length} Resultados</h5>
         </>
     )
 }

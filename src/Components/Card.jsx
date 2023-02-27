@@ -7,10 +7,10 @@ export default function Card({info}){
     return (
         <div className="parent">
             <img src={img}></img>
-            <div>
+            <div className="child">
                 <h4>{title}</h4>
-                <h6>{code}</h6>
-                <p>Precio: {`$${price}`}</p>
+                <h5>{code}</h5>
+                <p>Precio: <b>{`$${price}`}</b></p>
             </div>
         </div>
     )
