@@ -22,3 +22,9 @@
 #searched button:hover {
     cursor: pointer !important;
 }
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
