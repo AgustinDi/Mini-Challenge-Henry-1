@@ -6,6 +6,7 @@
 
 .child {
     margin-left: 24px;
+    width: max-content;
 }
 
 img {
@@ -40,4 +41,18 @@ h4 {
 
 #cards div img:hover {
     cursor: pointer
+}
+
+@media only screen and (max-width: 380px){
+    #cards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 830px){
+  .parent {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
